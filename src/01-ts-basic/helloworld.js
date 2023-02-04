@@ -1,5 +1,8 @@
 "use strict";
 function greet(name, date) {
-    console.log(`Hello ${name}, today is ${date}.`);
+    console.log("Hello ".concat(name, ", today is ").concat(date, "."));
 }
-greet('Edison', '2023-02-04');
+greet('Edison', new Date());
+// let msg = 'Hello world!';
+// msg = 'hello world';
+// msg = 100;

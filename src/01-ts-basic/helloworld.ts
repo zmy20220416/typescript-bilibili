@@ -1,5 +1,9 @@
-function greet(name: string, date: string) {
+function greet(name: string, date: Date) {
   console.log(`Hello ${name}, today is ${date}.`);
 }
 
-greet('Edison', '2023-02-04');
+greet('Edison', new Date());
+
+// let msg = 'Hello world!';
+// msg = 'hello world';
+// msg = 100;
