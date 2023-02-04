@@ -13,3 +13,11 @@ tsc --watch
 ```json
 noEmitOnError: true
 ```
+
+### 将 TypeScript 进行降级编译
+
+修改 tsconfig.json 文件中的如下配置
+
+```json
+"target": "ES5",
+```
